@@ -1,0 +1,17 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  background: white;
+  color: #1a1a1a;
+  /* 這裡設定基礎字體大小，1.25rem 約等於 20px */
+  font-size: 1.25rem; 
+  line-height: 1.6;
+}
